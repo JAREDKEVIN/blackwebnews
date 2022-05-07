@@ -1,4 +1,4 @@
-#!/home/moringa/Desktop/projects/python/blackwebnews/virtual/bin/python3
+#!/home/moringa/Desktop/projects/python/blackwebnews/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
