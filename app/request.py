@@ -135,3 +135,8 @@ def get_articles_by_category(category):
             articles_results_list = get_articles_response['articles']
             articles_results = process_articles_results(articles_results_list)
     return articles_results
+
+
+
+
+   
