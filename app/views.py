@@ -22,7 +22,7 @@ def index():
     cbc_news = get_articles_headlines('cbc-news')
 
     
-    title = 'Home - TITRAVIC LIVE NEWS '
+    title = 'Home - BLACKWEB LIVE NEWS '
     return render_template('index.html',
                            title=title,
                            general=general_news,
@@ -44,7 +44,7 @@ def articles():
     '''
     # Getting articles based on the source id
     articles = get_articles("general")
-    title = "TITRAVIC LIVE NEWS"
+    title = "BLACKWEB LIVE NEWS"
 
     return render_template('articles.html', title=title, articles=articles)
 
